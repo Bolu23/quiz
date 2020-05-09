@@ -105,17 +105,17 @@ const questions = [
     {
         question: 'Who wrote the book titled "Think Big"?',
         answers: [
-            {text: 'Ben Carson', correct: true},
             {text: 'Charles Dickens', correct: false},
+            {text: 'Ben Carson', correct: true},
             {text: 'Olivander Mckinney', correct: false},
         ]
     },
     {
         question: 'The Book title "Rich Dad, Poor Dad" was written by:',
         answers: [
-            {text: 'Robert Kiyosaki', correct: true},
+            {text: 'Btain Tracy', correct: false},
             {text: 'John Maxwell', correct: false},
-            {text: 'Brain Tracy', correct: false},
+            {text: 'Robert Kiyosaki', correct: true},
         ]
     },
 ]

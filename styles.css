@@ -20,7 +20,16 @@ body {
     align-items: center; 
     background-color: hsl(var(--hue), 100%, 20%);
 }
-
+ /*mobile devices */
+ @media (min-width: 360px) {
+     .start-btn {
+         margin-left: 125px;
+     }
+     .container {
+         margin-right: 270px;
+         width: 300px;
+     }
+ } 
 .container {
     width: 800px;
     max-width: 80;
@@ -61,7 +70,7 @@ body {
 }
 
 .start-btn {
-    margin-left: 300px;
+    margin-left: 200px;
 }
 .next-btn, .start-btn {
     font-size: 1.5rem;
